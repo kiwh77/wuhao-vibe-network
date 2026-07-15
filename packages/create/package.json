@@ -1,0 +1,17 @@
+{
+  "name": "create-wuhao-vibe-network",
+  "version": "0.1.0",
+  "description": "Scaffold a wuhao-vibe-network MCP app",
+  "type": "module",
+  "bin": {
+    "create-wuhao-vibe-network": "./dist/cli.js"
+  },
+  "main": "./dist/cli.js",
+  "files": ["dist", "template"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node ../../scripts/chmod-cli.mjs dist/cli.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}

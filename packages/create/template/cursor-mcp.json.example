@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "wuhao-vibe-network": {
+      "url": "http://127.0.0.1:3920/mcp"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "wuhao-vibe-network",
+  "version": "0.1.0",
+  "private": true,
+  "description": "AI Vibe Coding network request engineering: Spec Registry + Process Orchestrator + MCP/CLI",
+  "type": "module",
+  "scripts": {
+    "build": "pnpm -r --filter './packages/*' run build",
+    "test": "pnpm -r --filter './packages/*' run test --if-present",
+    "typecheck": "pnpm -r --filter './packages/*' run typecheck --if-present"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "pnpm@9.15.0",
+  "author": {
+    "name": "wuhao",
+    "email": "kiwh77@126.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kiwh77/wuhao-vibe-network.git"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "vibe-network-app",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "mcp:serve": "wuhao-vibe-network serve --entry ./mcp/index.mjs",
+    "mcp:tools": "wuhao-vibe-network tools list --entry ./mcp/index.mjs --json",
+    "mcp:materials": "wuhao-vibe-network materials list --entry ./mcp/index.mjs --json"
+  },
+  "dependencies": {
+    "wuhao-vibe-network-mcp": "^0.1.0"
+  }
+}
